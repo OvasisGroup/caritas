@@ -34,9 +34,9 @@ export default function LoginPage() {
             
             <div className='flex items-center justify-center h-screen'>
             <div className='w-full max-w-md p-8 rounded-lg '>
-                <Image src="/images/jpg/caritas_logo.png" alt="Logo" width={180} height={100} className='mb-4 flex items-center justify-center' />
-                <p className='text-2xl font-bold mb-6'>{t('login')}</p>
-                <p className='text-lg mb-4'>{t('welcome')}</p>
+                <Image src="/images/jpg/caritas_logo.png" alt="Logo" width={150} height={100} className='mb-4 flex items-center justify-center' />
+                <p className='font-bold'>{t('login')}</p>
+                <p className='text-normal mb-4'>{t('welcome')}</p>
                 <form onSubmit={handleLogin} className='space-y-4'>
                     <div className='mb-4'>
                         <input type='text' id='userId' placeholder='Enter your user id' className='w-full p-2 border border-gray-300 rounded-md' required />
