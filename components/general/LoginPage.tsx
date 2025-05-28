@@ -30,19 +30,19 @@ export default function LoginPage() {
                 <h2 className='text-2xl font-bold mb-6'>{t('Login')}</h2>
                 <form onSubmit={handleLogin} className='space-y-4'>
                     <div className='mb-4'>
-                        <label className='block text-sm font-medium mb-2' htmlFor='userId'>UserId</label>
-                        <input type='text' id='userId' className='w-full p-2 border border-gray-300 rounded-md' required />
+                        <input type='text' id='userId' placeholder='Enter your user id' className='w-full p-2 border border-gray-300 rounded-md' required />
                     </div>
-                    <div className='mb-6'>
-                        <label className='block text-sm font-medium mb-2' htmlFor='password'>Password</label>
-                        <input type='password' id='password' className='w-full p-2 border border-gray-300 rounded-md' required />
+                    <div className='mb-4'>
+                        <input type='password' placeholder='Enter your password' id='password' className='w-full p-2 border border-gray-300 rounded-md' required />
                     </div>
+                    <button type='submit' className='w-full bg-primary text-white py-2 rounded hover:bg-secondary'>Login</button>
                     
                         <ReCAPTCHA
                             sitekey="6LdfW0wrAAAAAKALu4qKDrzajNZCZ3S7tHTbnXLe"
                             onChange={(token: string | null) => setCaptchaToken(token)}
+                            className='w-full'
                         />
-                    <button type='submit' className='w-full bg-primary text-white py-2 rounded hover:bg-secondary'>Login</button>
+                    
                 </form>
             </div>
             
