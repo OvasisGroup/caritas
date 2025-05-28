@@ -39,7 +39,7 @@ export default function LoginPage() {
                     </div>
                     
                         <ReCAPTCHA
-                            sitekey="6Lcy8h4lAAAAAOr9b1k2Z5g3X7f0z8v9y5a1b2c3"
+                            sitekey="6LdfW0wrAAAAAKALu4qKDrzajNZCZ3S7tHTbnXLe"
                             onChange={(token: string | null) => setCaptchaToken(token)}
                         />
                     <button type='submit' className='w-full bg-primary text-white py-2 rounded hover:bg-secondary'>Login</button>
