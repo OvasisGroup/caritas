@@ -89,7 +89,10 @@ const data = {
       url: "#",
       icon: BiNotification,
       items: [
-        
+        {
+          title: "Templates",
+          url: "#",
+        }
       ],
     },
     {
@@ -97,7 +100,19 @@ const data = {
       url: "#",
       icon: Shield,
       items: [
+        {
+          title: "Change Password",
+          url: "#",
+        },
+        {
+          title: "Change Image/Phrase",
+          url: "#",
+        },
+        {
+          title: "Set Preferences",
+          url: "#",
         
+        }
       ],
     },
     {
@@ -105,7 +120,10 @@ const data = {
       url: "#",
       icon: Briefcase,
       items: [
-        
+        {
+          title: "Trade",
+          url: "#",
+        }
       ],
     },
     {
@@ -113,7 +131,10 @@ const data = {
       url: "#",
       icon: BookOpen,
       items: [
-        
+        {
+          title: "Services",
+          url: "#",
+        }
       ],
     },
     {
