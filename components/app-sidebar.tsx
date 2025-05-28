@@ -3,9 +3,11 @@
 import * as React from "react"
 import {
   BookOpen,
+  Briefcase,
   ExternalLink,
   LayoutDashboard,
   Settings,
+  Shield,
   SquareTerminal,
 } from "lucide-react"
 
@@ -19,6 +21,7 @@ import {
   SidebarRail,
 } from "@/components/ui/sidebar"
 import Logoarea from "./ui/Logoarea"
+import { BiNotification } from "react-icons/bi"
 
 // This is sample data.
 const data = {
@@ -68,40 +71,49 @@ const data = {
       icon: ExternalLink,
       items: [
         {
-          title: "Genesis",
+          title: "Within Bank",
           url: "#",
         },
         {
-          title: "Explorer",
+          title: "SWIFT",
           url: "#",
         },
         {
-          title: "Quantum",
+          title: "RTGS",
           url: "#",
         },
       ],
     },
     {
-      title: "Documentation",
+      title: "Templates & Status",
+      url: "#",
+      icon: BiNotification,
+      items: [
+        
+      ],
+    },
+    {
+      title: "Security Settings",
+      url: "#",
+      icon: Shield,
+      items: [
+        
+      ],
+    },
+    {
+      title: "Trade",
+      url: "#",
+      icon: Briefcase,
+      items: [
+        
+      ],
+    },
+    {
+      title: "Services",
       url: "#",
       icon: BookOpen,
       items: [
-        {
-          title: "Introduction",
-          url: "#",
-        },
-        {
-          title: "Get Started",
-          url: "#",
-        },
-        {
-          title: "Tutorials",
-          url: "#",
-        },
-        {
-          title: "Changelog",
-          url: "#",
-        },
+        
       ],
     },
     {
